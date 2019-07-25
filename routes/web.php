@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('spa');
 });
+
+Route::get('/api/pictures', 'PictureController@getAll');
+Route::get('/api/picture', 'PictureController@show');
+
+Route::get('/dropbox/hook', 'DropboxController@hook');

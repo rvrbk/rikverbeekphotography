@@ -110,7 +110,7 @@ if (workbox) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\laragon\www\deta\resources\js\service-worker.js */"./resources/js/service-worker.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\rikverbeekphotography\resources\js\service-worker.js */"./resources/js/service-worker.js");
 
 
 /***/ })

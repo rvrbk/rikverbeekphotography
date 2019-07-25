@@ -8,7 +8,7 @@
         <meta name="robots" content="noindex">
         <link rel="stylesheet" href="./css/app.css">
         <link rel="manifest" href="./manifest.json">
-        <title>Deta</title>
+        <title>Rik Verbeek Photography</title>
     </head>
     <body>
         <div id="app">

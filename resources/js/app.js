@@ -12,6 +12,7 @@ import es6_promise from 'es6-promise';
 import lodash from 'lodash';
 
 import app from './components/app';
+import wall from './components/wall';
 
 vue.use(vuerouter);
 vue.use(vuex);
@@ -50,7 +51,11 @@ const store = new vuex.Store({
 const router = new vuerouter({
     routes: [{
         path: '/',
-        component: app
+        component: app,
+        children: [{
+            path: '/',
+            component: wall
+        }]
     }]
 });
 
